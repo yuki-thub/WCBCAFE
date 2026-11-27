@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <title>WCB Cafe</title>
         <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- ファビコン -->
-        <link rel="icon" type="image/png" href="images/favicon.png">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ↓ 追加 ↓ -->
     <!-- リセットCSS -->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    
+<!-- ファビコン -->
+        <link rel="icon" type="image/png" href="images/cafe.favicon.png">
 
     <!-- Googleフォント -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,43 +20,55 @@
     <!-- オリジナルCSS -->
         <link rel="stylesheet" href="css/style.css">
 
-    <!-- OGP -->
-        <meta property="og:url" content="http://example.com/index.html">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="WCB Cafe Home">
-        <meta property="og:description" content="おしゃれなカフェで癒やされてみませんか?無添加の食材で体の中からリフレッシュ。">
-        <meta property="og:image" content="http://example.com/images/ogp.jpg">
+<!-- ↑ 追加 ↑ -->
     </head>
 
     <body>
-        <div class="cover cover-home">
-            <header class="page-header wrapper">
-                <h1 class="align-center">
-                    <a href="index.html"><img class="logo" src="images/logo.svg" alt="WCBカフェ ホーム"></a>
-                </h1>
-                <nav>
-                    <ul class="main-nav font-english">
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <h2 class="page-title font-english">We'll Make Your Day</h2>
-        </div>
+    
+<div class="cover cover-home">
 
+<header class="page-header wrapper"><!-- ← wrapper クラスを追加 -->
+
+
+            <h1 class="align-center">
+                <a href="index.html"><img class="logo" src="images/logo.svg" alt="WCBカフェ ホーム"></a>
+            </h1>
+            <nav>
+                <ul class="main-nav font-english">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+   </header>
+
+       
+   <h2 class="page-title font-english">We'll Make Your Day</h2>
+
+ </div>
+
+  <!-- ↓ 追加 ↓ -->
         <section class="about">
             <h3 class="heading-large font-english">About Cafe</h3>
             <p>
                 WCB CAFEは無添加の厳選食材とおしゃれな店内が魅力のカフェです。心と体に優しい、それでいて飽きのこない空間をご用意しています。
                 素材の本来の美味しさを引き出したメニューを楽しみながら、癒しの時間をお過ごしください。
             </p>
-            <div class="align-center">
-                <a class="btn" href="menu.html">メニューを見る</a>
-            </div>
+
+        <div class="align-center">    
+
+           <a class="btn" href="menu.html">メニューを見る
+            
+           </a>
+
+          
+
+        </div>
         </section>
 
-        <footer class="page-footer">
+
+
+<footer class="page-footer">
             <h3 class="heading-large font-english">Information</h3>
             <table class="info">
                 <tr>
@@ -77,9 +89,17 @@
                 </tr>
             </table>
 
+
             <div class="copyright">
                 <small>&copy; 2010 WCB Cafe</small>
             </div>
+
         </footer>
+    <!-- ↑ 追加 ↑ -->
+
+    <!-- ↑ 追加 ↑ -->
+ 
+
+
     </body>
 </html>
